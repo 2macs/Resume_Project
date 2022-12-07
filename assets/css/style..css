@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700¦Exo:wght@100;200;300;400;500;600;700');
+
+header{
+    margin: 0;
+}
+
+.logo{
+    background: url('../images/rosie.jpg');
+    background-position: center; /* center the image */
+    background-repeat: no-repeat; /* appears only once, does not tile across */
+    background-size: cover; /* image fills the container */
+    min-height: 360px; /* rows to the left will be sized to fill 360 pixels also */
+    transition: all 0.5s ease-in-out; /* some automation on the image */
+    -moz-transition: all 0.5s ease-in-out; /* some automation on the image Mozilla */
+    -webkit-transition: all 0.5s ease-in-out; /* some automation on the image other browsers */
+}
