@@ -42,3 +42,26 @@ header{
     margin-bottom: 90px;
     color:#ffffff;
 }
+.ui-menu-color-home{
+    background-color: #e67e22;
+}
+.ui-menu-color-resume{
+    background-color: #9b59b6;
+}
+.ui-menu-color-contact{
+    background-color: #3498db;
+}
+.ui-menu-color-download{
+    background-color: #525252;
+}
+
+.list-inline-item:not(:last-child){  /*used chrome tools to find this class was adding a margin to menu items*/
+    margin: 0;  /*closes some of the gap between the list items -but not all */
+}
+.menucontainer{
+    font-size: 0; /*closes gaps between menu items but now we cant see the font! see next class*/
+}
+#nav li{
+    font-size: 14px;
+    padding: 0;
+}
