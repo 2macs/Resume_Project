@@ -315,3 +315,6 @@ footer {
     content:'';
     background: #fafafa;
 }
+.history-item{
+    margin-bottom: 30px; /*maintains a space below all the work history items */
+}
